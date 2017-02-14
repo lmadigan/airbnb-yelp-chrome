@@ -1775,6 +1775,26 @@
 		color: rgba(124, 128, 129, 0.5) !important;
 	}
 
+	.first-section{
+		display: flex;
+		justify-content: center;
+	}
+
+	#first-image{
+		height: 400px;
+		width: 600px;
+	}
+
+	.second-section{
+		display: flex;
+		justify-content: center;
+	}
+
+	#second-image{
+		height: 400px;
+		width: 600px;
+	}
+
 /* Image */
 
 	.image {
