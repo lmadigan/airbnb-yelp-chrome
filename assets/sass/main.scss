@@ -814,11 +814,17 @@
 			@include vendor('animation', 'reveal-banner 1s 0.25s ease-in-out');
 			@include vendor('animation-fill-mode', 'forwards');
 			background: transparentize(_palette(banner, inner-bg), 0.5);
-			color: _palette(banner, inner-fg);
+			// color: _palette(banner, inner-fg);
 			display: inline-block;
 			opacity: 0;
 			padding: 3em;
 			text-align: center;
+			background-color: rgba(255,255,255,0.8);
+			margin-left: 100px;
+			margin-right: 100px;
+			padding: 30px;
+			border-radius: 13px;
+			color:#03a7ea;
 
 			header {
 				display: inline-block;
@@ -937,6 +943,11 @@
 				}
 			}
 		}
+	}
+
+	.button special {
+		background: #03a7ea;
+    border-radius: 3px;
 	}
 
 /* Wide */
@@ -1356,6 +1367,10 @@
 				.indent-3 { display: inline-block; width: 3em; }
 				.indent-4 { display: inline-block; width: 4em; }
 				.indent-5 { display: inline-block; width: 5em; }
+			}
+
+			#top-container{
+				padding-top: 0;
 			}
 
 			body {

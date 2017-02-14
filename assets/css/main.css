@@ -2105,13 +2105,9 @@
 			padding: 0;
 		}
 
-		.wrapper.style2 {
-			background-color: #83d3c9;
-			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
-			background-position: bottom left, bottom right;
-			background-repeat: no-repeat, no-repeat;
-			background-size: 25em, 25em;
-			color: #fff;
+		.video-wrapper{
+			display: flex;
+			justify-content: center;
 		}
 
 			.wrapper.style2 .button:hover {
@@ -2194,6 +2190,22 @@
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+	}
+
+	#airbnb {
+		position: absolute;
+    top: 10px;
+    left: 240px;
+		padding-right: 5px;
+	}
+	#yelp{
+		position: absolute;
+    top: 10px;
+    left: 275px;
+	}
+
+	.special .container {
+		padding-top: 0;
 	}
 
 		#header h1 {
@@ -2392,6 +2404,29 @@
 		}
 	}
 
+	.inner{
+		background-color: rgba(255,255,255,0.8);
+		margin-left: 100px;
+		margin-right: 100px;
+		padding: 30px;
+		border-radius: 13px;
+		color: #03a7ea;
+	}
+
+	#logo{
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	#nav {
+		font-style: 18px;
+	}
+
+	#github {
+		background: #03a7ea;
+    border-radius: 3px;
+	}
+
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		/*background-color: #645862;*/
@@ -2428,6 +2463,7 @@
 				border-top: solid 2px;
 				margin: 0 0 2em 0;
 				padding: 3px 0 3px 0;
+				color: #03a7ea;
 			}
 
 				#banner .inner header h2 {
@@ -2446,6 +2482,7 @@
 				letter-spacing: 0.1em;
 				margin: 0;
 				text-transform: uppercase;
+				color: #03a7ea;
 			}
 
 				#banner .inner p a {
@@ -2456,12 +2493,13 @@
 
 			#banner .inner footer {
 				margin: 2em 0 0 0;
+				color:#03a7ea;
 			}
 
 /* Main */
 
 	#main {
-		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
+		/*background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");*/
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
@@ -2677,7 +2715,7 @@
 		/* Banner */
 
 			#banner {
-				background-size: 15em, 15em, auto, cover;
+				/*background-size: 15em, 15em, auto, cover;*/
 			}
 
 		/* Main */
@@ -3025,6 +3063,7 @@
 
 			header {
 				text-align: center;
+				padding-top: 0;
 			}
 
 				header.major {
@@ -3119,7 +3158,7 @@
 		/* Banner */
 
 			#banner {
-				background-size: 10em, 10em, auto, cover;
+				/*background-size: 10em, 10em, auto, cover;*/
 				padding: 6em 0;
 			}
 
@@ -3154,6 +3193,10 @@
 
 			body.contact #main {
 				padding-bottom: 0;
+			}
+
+			#top-container{
+				padding-top: 0;
 			}
 
 		/* CTA */
